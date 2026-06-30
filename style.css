@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Roboto,sans-serif;
+    background:#f7f7f7;
+    color:#333;
+}
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px;
+    background:white;
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
+
+}
+
+.logo{
+
+    display:flex;
+    gap:10px;
+    align-items:center;
+
+    color:#178B59;
+    font-weight:bold;
+
+}
+
+header button{
+
+    width:42px;
+    height:42px;
+
+    border:none;
+    border-radius:50%;
+    background:#178B59;
+    color:white;
+    cursor:pointer;
+
+}
+
+main{
+
+    max-width:390px;
+    margin:auto;
+    padding:18px;
+
+}
+
+section{
+
+    background:white;
+    margin-bottom:20px;
+    padding:18px;
+    border-radius:16px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+
+}
+
+.hero{
+
+    text-align:center;
+
+}
+
+.hero h1{
+
+    font-family:Merriweather, serif;
+    margin:20px 0;
+    font-size:34px;
+
+}
+
+.recycle{
+
+    color:#19a86a;
+    font-size:40px;
+
+}
+
+.coleta{
+
+    background:#178B59;
+    color:white;
+
+    border-radius:40px;
+
+    padding:16px;
+    margin:25px 0;
+
+}
+
+.regra{
+
+    border:1px solid #ddd;
+    padding:15px;
+    border-radius:12px;
+
+}
+
+.card{
+
+    background:#fff;
+    border:1px solid #ddd;
+
+    padding:15px;
+    border-radius:12px;
+    margin-top:15px;
+
+}
+
+.verde{
+
+    background:#EAF8F1;
+
+}
+
+.tipo{
+
+    display:flex;
+    gap:15px;
+    align-items:center;
+
+    background:#efefef;
+    padding:15px;
+    border-radius:12px;
+    margin-top:15px;
+
+}
+
+.cor{
+
+    width:55px;
+    height:80px;
+    border-radius:10px;
+
+}
+
+.marrom{background:#8b5a2b;}
+.cinza{background:#999;}
+.amarelo{background:#FFD600;}
+.azul{background:#4285F4;}
+.verde2{background:#1FA64A;}
+.vermelho{background:#F44336;}
+
+.alerta{
+
+    border-radius:12px;
+    padding:15px;
+    margin-top:15px;
+
+}
+
+.azul-card{
+
+    background:#E8F4FF;
+
+}
+
+.amarelo-card{
+
+    background:#FFF7E5;
+
+}
